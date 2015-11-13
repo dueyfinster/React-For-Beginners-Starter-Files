@@ -27018,8 +27018,8 @@ var _componentsApp2 = _interopRequireDefault(_componentsApp);
 var routes = _react2['default'].createElement(
     _reactRouter.Router,
     { history: (0, _history.createHistory)() },
-    _react2['default'].createElement(_reactRouter.Route, { path: '/', component: _componentsStorePicker2['default'] }),
-    _react2['default'].createElement(_reactRouter.Route, { path: '/store/:storeId', component: _componentsApp2['default'] }),
+    _react2['default'].createElement(_reactRouter.Route, { path: '/React-For-Beginners-Starter-Files/', component: _componentsStorePicker2['default'] }),
+    _react2['default'].createElement(_reactRouter.Route, { path: '/React-For-Beginners-Starter-Files/store/:storeId', component: _componentsApp2['default'] }),
     _react2['default'].createElement(_reactRouter.Route, { path: '*', component: _componentsNotFound2['default'] })
 );
 
